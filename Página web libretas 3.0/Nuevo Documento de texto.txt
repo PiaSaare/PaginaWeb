@@ -1,9 +1,0 @@
-<td> <a href="{% url 'alumnos_del' pk=x.rut %}">Eliminar</a>
-                    <td> <a href="{% url 'alumnos_findEdit' pk=x.rut %}">Modificar</a>
-
-<pre>Género:       <select name="genero">
-                {% for genero in generos %}
-                    <option value= "{{genero.id_genero}}">{{genero.genero}}</option>
-                {% endfor% }
-
-<input type="submbit" name="opcion" value="Agregar">
